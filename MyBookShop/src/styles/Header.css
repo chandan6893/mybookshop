@@ -1,0 +1,40 @@
+.HeaderContainerA{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    width:100%;
+   
+}
+
+.HeaderTotalNoOfFavBooks{
+position: relative;
+left: 12px;
+top: 6px;
+font-size: large;
+}
+
+
+/* responsive */
+@media only screen and (max-width: 900px){
+.BookmarkIconAndCountingBooksContainer{
+    margin: 0 20px 0 20px;
+}
+}
+@media only screen and (max-width: 750px)  {
+.BookmarkIconAndCountingBooksContainer{
+    margin-right: 50px;
+    margin-left: 40px;
+}
+.HeaderToolbar{
+    height: 8rem;
+}
+.HeaderContainerA{
+ position: absolute;
+ top: 10%;
+}
+.SearchBooksContainer{
+position: absolute;
+top: 110%;
+left: 12%;
+}
+}
