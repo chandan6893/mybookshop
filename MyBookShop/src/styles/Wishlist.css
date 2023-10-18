@@ -1,4 +1,4 @@
-/* .Booklist_book_card{
+.Booklist_book_card{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,4 +57,4 @@
     .BookList{
         margin-top: 140px;
     }
-} */
+}
