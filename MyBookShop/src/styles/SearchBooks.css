@@ -1,4 +1,4 @@
-/* .SearchBooksInputTag{
+.SearchBooksInputTag{
     width: 28rem;
     height: 2.2rem;
     padding: 0 10px 0 20px;
@@ -61,4 +61,4 @@ cursor: pointer;
           .SearchBooksSearchedResults{
             margin-left:280px;
           }
-  } */
+  }
