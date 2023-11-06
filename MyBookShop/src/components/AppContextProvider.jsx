@@ -9,9 +9,14 @@ const [favourates,setFavourates]=useState([]);
 const [search, setSearch] = useState("");
 const [searchResult, setSearchResult] = useState([]);
   
-const fav=(book)=>{
-    setFavourates([...favourates,book])
+
+const fav = (book) => {
+  // Check if the book is already in the favourites array
+  if (!favourates.includes(book)) {
+    // If it's not in the array, add it to the favourites array
+    setFavourates([...favourates, book]);
   }
+};
 
 const removeFun = (id) => {
     // console.log(id)
